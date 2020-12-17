@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   -->
 
-  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="<?php echo asset('css/app.css'); ?>">
   <script type="text/javascript" src="/js/app.js"></script>
   <!--Replace with your tailwind.css once created-->
 
@@ -53,7 +53,7 @@
 
     <!--Left Col-->
     <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-      <h1 class="my-4 text-3xl md:text-5xl text-purple-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Main Hero Message to sell your app</h1>
+      <h1 class="my-4 text-3xl md:text-5xl text-purple-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1 hover:text-blue-300">Main Hero Message to sell your app</h1>
       <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Sub-hero message, not too long and not too short. Make it just right!</p>
 
       <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">Download our app:</p>
